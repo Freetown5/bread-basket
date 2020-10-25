@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/Freetown5/bread-basket/issues"
   },
-  "homepage": "https://github.com/Freetown5/bread-basket#readme"
+  "homepage": "https://github.com/Freetown5/bread-basket#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.10"
+  }
 }
