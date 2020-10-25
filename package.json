@@ -1,0 +1,19 @@
+{
+  "name": "bread-basket",
+  "version": "1.0.0",
+  "description": "a site that residents of a building can use to give away leftover meals",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Freetown5/bread-basket.git"
+  },
+  "author": "I.Con",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Freetown5/bread-basket/issues"
+  },
+  "homepage": "https://github.com/Freetown5/bread-basket#readme"
+}
