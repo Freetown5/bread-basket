@@ -8,3 +8,7 @@ app.use("/static", express.static("public"))
 app.get('/', (req, res) => {
     res.render('landing.ejs');
 });
+
+app.get('/buildings', (req, res) => {
+    res.render('buildings.ejs');
+})
