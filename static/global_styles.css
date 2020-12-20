@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    /* text */
+    --headingFont: 'Montserrat', sans-serif;
+    --bodyFont: 'Hind', sans-serif;
+
+    /* color  */
+    --lightPink: #EBC1CB;
+    --orange: #E5945D;
+    --yellow: #FAEB97;
+    --lightBlue: #E9F1FC;
+    --peach: #F9DCB4;
+    --sand: #E3DD9F;
+    --pinkPeach: #F6CDB3;
+    --muddyTan: #B18D3F;
+    --sienna: #A45A37;
+    --mutedRed: #AE313B;
+    --rustRed: #952625;
+    --brightRed: #DC5632;
+    --hotPink: #E5528E;
+    --blackishRed: #3A1819;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: var(--bodyFont);
+}
+
+h1, h2, h3{
+    font-family: var(--headingFont);
+}
+
+h1{
+   font-size: 2.25em; 
+}
+
+h2{
+    font-size: 1.75rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+p, li, button{
+    font-size: 1.25rem;
+}
+
+
+button{
+    border: none;
+    background: transparent;
+}
+
+.button--default{
+    background: var(--sand);
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+}
+
+.button--accent{
+    background: var(--lightPink);
+    padding: 10px 40px 10px 40px;
+    border-radius: 20px;
+}
