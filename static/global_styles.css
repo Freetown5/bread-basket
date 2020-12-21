@@ -21,6 +21,9 @@
     --brightRed: #DC5632;
     --hotPink: #E5528E;
     --blackishRed: #3A1819;
+
+    /* screen break  */
+    --mobile: 540px;
 }
 
 body{
@@ -49,7 +52,7 @@ a{
     text-decoration: none;
 }
 
-p, li, button{
+p, li{
     font-size: 1.25rem;
 }
 
@@ -57,16 +60,15 @@ p, li, button{
 button{
     border: none;
     background: transparent;
+    padding: 35px 40px 35px 40px;
+    border-radius: 55px;
+    font-size: 2.5rem;
 }
 
-.button--default{
+.default{
     background: var(--sand);
-    padding: 10px 40px 10px 40px;
-    border-radius: 20px;
 }
 
-.button--accent{
+.accent{
     background: var(--lightPink);
-    padding: 10px 40px 10px 40px;
-    border-radius: 20px;
 }

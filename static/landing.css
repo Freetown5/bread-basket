@@ -1,0 +1,45 @@
+@import "global_styles.css";
+
+.basics{
+    padding: 125px 10px 10px 10px;
+}
+
+.basics__title, .basics__slogan{
+    text-align: center;
+}
+
+.basics__slogan{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.basics__description, .basics__buttonContainer{
+    padding-left: 30px;
+    padding-right: 30px; 
+}
+
+.basics__buttonContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.basics__buildingButton{
+    padding-left: 85px;
+    padding-right: 85px;
+    margin-bottom: 60px;
+}
+
+.instructions{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.instructions__blockA, .instructions__blockD{
+    background: var(--peach);
+}
+
+.instructions__blockB, .instructions__blockC{
+    background: var(--pinkPeach);
+}
