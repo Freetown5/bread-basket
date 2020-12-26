@@ -33,7 +33,23 @@
 .instructions{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 275px);
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    line-height: 2.5rem;
+}
+
+.instructions h3{
+    font-size: 3rem;
+    line-height: 1rem;
+    padding-top: 20px;
+}
+
+.instructions p {
+    font-size: 2.5rem;
 }
 
 .instructions__blockA, .instructions__blockD{
