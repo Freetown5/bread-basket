@@ -21,9 +21,6 @@
     --brightRed: #DC5632;
     --hotPink: #E5528E;
     --blackishRed: #3A1819;
-
-    /* screen break  */
-    --mobile: 540px;
 }
 
 body{
@@ -71,4 +68,11 @@ button{
 
 .accent{
     background: var(--lightPink);
+}
+
+@media only screen and (min-width: 540px){
+
+    button{
+        font-size: 1rem;
+    }
 }

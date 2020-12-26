@@ -59,3 +59,41 @@
 .instructions__blockB, .instructions__blockC{
     background: var(--pinkPeach);
 }
+
+@media only screen and (min-width: 540px){
+    .basics__buildingButton{
+        margin-bottom: 0;
+    }
+
+    .basics__buttonContainer{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .instructions{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 275px);
+    }
+
+    .instructions h3{
+        font-size: 1.5rem;
+        line-height: 0;
+        padding-top: 75px;
+    }
+
+    .instructions p {
+        font-size: 1.25em;
+    }
+
+    .instructions__blockA,.instructions__blockC{
+        background-color: var(--peach);
+    }
+    
+    .instructions__blockB,.instructions__blockD{
+        background-color: var(--pinkPeach);
+    }
+
+}
