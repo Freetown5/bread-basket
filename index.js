@@ -14,10 +14,19 @@ app.get('/', (req, res) => {
     res.render('landing.ejs');
 });
 
-app.get('/buildings', (req, res) => {
-    res.render('buildings.ejs');
-});
+// app.get('/buildings', (req, res) => {
+//     res.render('buildings.ejs');
+// });
 
 client.connect(err => {
     const collection = client.db("main").collection("buildings");
+
+    // app.listen(3000, () => console.log("Server Up and running"));
+
+    app.get('/buildings', (req, res) => {
+        collection.find().toArray((err, results) => {
+            if(err) return console.log("Error: " + err);
+            res.render('buildings.ejs', {building: results});
+        });
+    });
 })
