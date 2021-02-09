@@ -1,0 +1,21 @@
+@import "global_styles.css";
+
+body{
+    text-align: center;
+    padding: 50px 250px 50px 250px;
+    background-color: var(--peach);
+}
+
+.heading__loginButton{
+    background-color: var(--sienna);
+    color: white;
+    margin-bottom: 20px;
+}
+
+.heading__floorSelect{
+    width: 100%;
+    font-size: 2em;
+    border: none;
+    background-color: var(--yellow);
+    padding: 10px;
+}
