@@ -11,7 +11,7 @@ app.set("view engine", "ejs");
 app.use(express.static("static"));
 
 app.get('/', (req, res) => {
-    res.render('landing.ejs');
+    res.render('main.ejs');
 });
 
 app.get('/buildings', (req, res) => {
