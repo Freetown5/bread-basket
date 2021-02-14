@@ -31,3 +31,43 @@ body{
     -webkit-appearance: none;
     appearance: none;
 }
+
+.floorMap{
+    width: 100%;
+    background-color: cornsilk;
+    margin-top: 30px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.floorMap p{
+    line-height: 1em;
+}
+
+.floorMap__perimeter{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1.5fr 1fr 1.5fr;
+    width: 80%;
+    height: 80%;
+    border: 6px solid black;
+    margin-bottom: 5%;
+}
+
+.floorMap__unit{
+    border: 4px solid black;
+    justify-items: center;
+    align-items: center;
+}
+
+.floorMap__hallway{
+    grid-column: 1/span 7;
+}
+
+.floorMap__clubHouse{
+    grid-column: 1/span 2;
+    border: 4px solid black;
+}
