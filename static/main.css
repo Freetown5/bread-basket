@@ -6,6 +6,14 @@ body{
     background-color: var(--peach);
 }
 
+.unavailable{
+    background-color: #F8CECC;
+}
+
+.selected{
+    background-color: #D5E8D4;
+}
+
 .heading__loginButton{
     background-color: var(--sienna);
     color: white;
